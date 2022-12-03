@@ -1,0 +1,98 @@
+body {
+  background-color: #730a0a;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px 0 35px 0;
+  overflow-x: hidden;
+}
+
+.text {
+  margin: 0 auto;
+  padding: 0 .5rem 0 .5rem;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 0.25rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-top: -0.5rem;
+  margin-bottom: 0.25rem;
+  font-family: 'Orbitron', sans-serif;
+  line-height: 1;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: inherit;
+}
+
+.explanation {
+  padding: 0 1rem;
+  font-size: .8rem;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+img {
+  border: 8px solid white;
+  width: 700px;
+  max-width: 100%;
+  margin-top: 3rem;
+  transform: rotate(-6deg);
+}
+
+img:after, img:before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  bottom: 6px;
+  width: 50%;
+  height: 20%;
+  z-index: -1;
+  -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 0 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 0 15px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 0 15px;
+}
+img:after {
+  right: 5px;
+  left: auto;
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+img:before {
+  left: 5px;
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
