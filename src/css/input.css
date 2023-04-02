@@ -7,7 +7,23 @@
 }
 
 @layer utilities {
+  .font-industry-inc-base {
+    font-family: industry-inc-base, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
+  .font-industry-book {
+    font-family: "industry", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .font-industry-medium {
+    font-family: "industry", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 }
 
 @layer components {
